@@ -6,15 +6,15 @@
     <link href="./src/output.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class=''>
+<body class='h-full'>
     <header>
-        <nav class='flex justify-around items-center'>
-            <div class='w-[3rem] h-[3rem]'><img src="./public/programming.svg" alt="Logo"></div>
+        <nav class='flex justify-around items-center text-[14px] p-4'>
+            <div class='w-[2.5rem] h-[2.5rem]'><img src="./public/programming.svg" alt="Logo"></div>
             <div>
                 <ul class="flex gap-8">
-                    <li><a href="#">ABOUT ME</a></li>
-                    <li><a href="#">SKILLS</a></li>
-                    <li><a href="#">PROJECTS</a></li>
+                    <li ><a href="#" class="transition-all duration-200 ease-in-out hover:text-[16px] hover:text-amber-100">ABOUT ME</a></li>
+                    <li ><a href="#" class="transition-all duration-200 ease-in-out hover:text-[16px] hover:text-amber-100">SKILLS</a></li>
+                    <li ><a href="#" class="transition-all duration-200 ease-in-out hover:text-[16px] hover:text-amber-100">PROJECTS</a></li>
                 </ul>
             </div>
             <div class='w-[5rem] h-[3rem] hidden'>
@@ -27,8 +27,15 @@
     </header>
 
 
-    <section>
-
+    <section class="h-[25rem] flex flex-col items-center 
+        bg-linear-to-b from-[#0D1117] from-30% via-[#11356b] via-70% to-[#034ec7d7] relative">
+        <h1 class="text-4xl text-center pt-7">
+            I'm <span class="text-[#e3ff6a]">José Javier</span> Frontend Developer
+        </h1>
+        <div class="w-[12rem] absolute bottom-0">
+            <img src="./public/person.jpg" alt="Picture of me" class="custom-drop-shadow">
+        </div>
+        <a href="#" class="text-black bg-[#e3ff6a] p-0.5 pl-4 pr-4 rounded-2xl absolute bottom-4">MY PROJECTS</a>
     </section>
 
 
