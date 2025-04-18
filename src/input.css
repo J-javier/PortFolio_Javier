@@ -32,6 +32,10 @@ body {
           /* drop-shadow(4px 0px 10px var(--color-highlight)); */
 }
 
+.custom-shadow{
+  box-shadow: -2px -1px 2px 0px rgba(250,242,250,1);
+}
+
 /* Gradiant 
   
   background: linear-gradient(135deg, #1E293B 0%, #0D1117 100%) ;

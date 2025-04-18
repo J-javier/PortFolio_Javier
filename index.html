@@ -1,68 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/output.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
     <title>Document</title>
-</head>
-<body class='h-full'>
+  </head>
+  <body class="h-full">
     <header>
-        <nav class='flex justify-around items-center text-[14px] p-4'>
-            <div class='w-[2.5rem] h-[2.5rem]'><img src="./public/programming.svg" alt="Logo"></div>
-            <div>
-                <ul class="flex gap-8">
-                    <li ><a href="#" class="transition-all duration-200 ease-in-out hover:text-[16px] hover:text-amber-100">ABOUT ME</a></li>
-                    <li ><a href="#" class="transition-all duration-200 ease-in-out hover:text-[16px] hover:text-amber-100">SKILLS</a></li>
-                    <li ><a href="#" class="transition-all duration-200 ease-in-out hover:text-[16px] hover:text-amber-100">PROJECTS</a></li>
-                </ul>
-            </div>
-            <div class='w-[5rem] h-[3rem] hidden'>
-                <span>CONTACT</span>
-                <div class="w-full h-[3rem] ">
-                    <img src="./public/arrow-up-right.svg" alt="Arrow">
-                </div>
-            </div>
-        </nav>
+      <nav class="flex justify-around items-center text-[14px] p-4">
+        <div class="w-[2.5rem] h-[2.5rem]">
+          <img src="./public/programming.svg" alt="Logo" />
+        </div>
+        <div>
+          <ul class="flex gap-8">
+            <li>
+              <a
+                href="#"
+                class="transition-all duration-200 ease-in-out hover:text-[16px] hover:text-amber-100"
+                >ABOUT ME</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="transition-all duration-200 ease-in-out hover:text-[16px] hover:text-amber-100"
+                >SKILLS</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="transition-all duration-200 ease-in-out hover:text-[16px] hover:text-amber-100"
+                >PROJECTS</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="w-[5rem] h-[3rem] hidden">
+          <span>CONTACT</span>
+          <div class="w-full h-[3rem]">
+            <img src="./public/arrow-up-right.svg" alt="Arrow" />
+          </div>
+        </div>
+      </nav>
     </header>
 
+    <section
+      class="h-[25rem] flex flex-col items-center bg-linear-to-b from-[#0D1117] from-30% via-[#11356b] via-70% to-[#034ec7d7] relative"
+    >
+      <h1 class="text-4xl text-center pt-7">
+        I'm <span class="text-[#e3ff6a]">José Javier</span> Frontend Developer
+      </h1>
+      <div class="w-[12rem] absolute bottom-0">
+        <img
+          src="./public/person.jpg"
+          alt="Picture of me"
+          class="custom-drop-shadow"
+        />
+      </div>
+      <a
+        href="#"
+        class="text-black text-[13px] bg-[#e3ff6a] p-0.5 pl-4 pr-4 rounded-2xl absolute bottom-4 transition-all duration-200 ease-in-out hover:text-[16px]"
+        >MY PROJECTS</a
+      >
+    </section>
 
-    <section class="h-[25rem] flex flex-col items-center 
-        bg-linear-to-b from-[#0D1117] from-30% via-[#11356b] via-70% to-[#034ec7d7] relative">
-        <h1 class="text-4xl text-center pt-7">
-            I'm <span class="text-[#e3ff6a]">José Javier</span> Frontend Developer
-        </h1>
-        <div class="w-[12rem] absolute bottom-0">
-            <img src="./public/person.jpg" alt="Picture of me" class="custom-drop-shadow">
+    <section
+      class="flex flex-col items-center justify-center h-[18rem] relative"
+    >
+      <!-- <div class="relative w-full h-full"> -->
+      <!--   <div class="w-[2rem] h-[3rem] border border-white border-solid rounded-[8px] absolute left-6 top-5 rotate-12">
+            <img src="./public/person.jpg" alt="picture of me" class="object-contain">
         </div>
-        <a href="#" class="text-black bg-[#e3ff6a] p-0.5 pl-4 pr-4 rounded-2xl absolute bottom-4">MY PROJECTS</a>
+        <div class="w-[3rem] h-[4rem] border border-white border-solid rounded-2xl absolute right-0">
+            <img src="./public/person.jpg" alt="picture of me" class="object-contain">
+        </div>
+        <div class="w-[3rem] h-[4rem] border border-white border-solid rounded-2xl absolute left-5 bottom-11 rotate-12">
+            <img src="./public/person.jpg" alt="picture of me" class="object-contain">
+        </div> -->
+      <!-- </div> -->
+      <h1 class="text-[#a4ff7a] text-3xl pb-2">WHO AM I ?</h1>
+      <p class="text-center text-[11px] w-[70%]">
+        I Am a full-stack website developer specialized in React JS. I also know
+        some wordpress front end development.
+      </p>
+      <p class="text-center text-[11px] w-[70%]">
+        Programming is my passion, that's the reason I am working at the time of
+        my academi career
+      </p>
+      <p class="text-center text-[11px] w-[70%]">
+        Additionally, I like to play Video games in my leasure time which is fun
+        and relaxing.
+      </p>
+      <a
+        href="#projects"
+        class="absolute bottom-4 text-[12px] bg-[#a4ff7a] text-black px-4 py-1 rounded-2xl transition-all duration-200 ease-in-out hover:text-[14px]"
+        >SHOW MY PROJECTS</a
+      >
     </section>
 
+    <section id="skill" class="flex flex-col items-center mb-4">
+      <h1 class="text-[#e3ff6a] text-[1.5rem] pt-3.5 pb-3.5">MY SKILLS</h1>
+      <div class="flex justify-center">
+        <div class="flex flex-wrap w-[67%] gap-1">
+          <div
+            class="w-[3.5rem] h-[5rem] rounded-[4px] bg-[#1d2337] flex justify-center items-center border-double"
+          >
+            <div class="w-[2.5rem] h-[2.5rem]">
+              <img src="./public/HTML.svg" alt="Html logo" />
+            </div>
+          </div>
 
-    <section>
+          <div
+            class="w-[3.5rem] h-[5rem] rounded-[4px] bg-[#1d2337] flex justify-center items-center border-double"
+          >
+            <div class="w-[2.5rem] h-[2.5rem]">
+              <img src="./public/CSS.svg" alt="CSS Logo" />
+            </div>
+          </div>
 
+          <div
+            class="w-[3.5rem] h-[5rem] rounded-[4px] bg-[#1d2337] flex justify-center items-center border-double"
+          >
+            <div class="w-[2.5rem] h-[2.5rem]">
+              <img src="./public/javascript.webp" alt="javascript logo" />
+            </div>
+          </div>
+
+          <div
+            class="w-[3.5rem] h-[5rem] rounded-[4px] bg-[#1d2337] flex justify-center items-center border-double"
+          >
+            <div class="w-[2.5rem] h-[2.5rem]">
+              <img src="./public/react.svg" alt="react logo" />
+            </div>
+          </div>
+
+          <div
+            class="w-[3.5rem] h-[5rem] rounded-[4px] bg-[#1d2337] flex justify-center items-center border-double"
+          >
+            <div class="w-[2.5rem] h-[2.5rem]">
+              <img src="./public/php.svg" alt="php logo" />
+            </div>
+          </div>
+
+          <div
+            class="w-[3.5rem] h-[5rem] rounded-[4px] bg-[#1d2337] flex justify-center items-center border-double"
+          >
+            <div class="w-[2.5rem] h-[2.5rem]">
+              <img src="./public/laravel.svg" alt="Laravel logo" />
+            </div>
+          </div>
+
+          <div
+            class="w-[3.5rem] h-[5rem] rounded-[4px] bg-[#1d2337] flex justify-center items-center border-double"
+          >
+            <div class="w-[2.5rem] h-[2.5rem]">
+              <img src="./public/Tailwind.svg" alt="Tailwind logo" />
+            </div>
+          </div>
+
+          <div
+            class="w-[3.5rem] h-[5rem] rounded-[4px] bg-[#1d2337] flex justify-center items-center border-double"
+          >
+            <div class="w-[2.5rem] h-[2.5rem]">
+              <img src="./public/mysql.svg" alt="mysql logo" />
+            </div>
+          </div>
+        </div>
+        <div class="w-[26%] flex flex-col items-center justify-center bg-[#1d2337] rounded-[5px]">
+          <span class="text-[1.8rem]">1</span>
+          <h1 class="text-center leading-4.5 pb-2 text-[14px] w-[80%]">
+            Year Experience Working
+          </h1>
+          <button
+            class="text-[8px] text-black pt-1 pb-1 pl-2 pr-2 bg-[#e3ff6a] rounded-[10px]"
+          >
+            DOWNLOAD MY CV
+          </button>
+        </div>
+      </div>
     </section>
 
-
-    <section>
-
+    <section class="flex flex-col items-center mb-9 mt-9">
+        <div class="w-[94%] bg-[#1d2337] rounded-[10px] h-[6rem] flex flex-col items-center justify-center gap-3">
+            <div class="flex justify-center text-[#e3ff6a] text-[15px] ">
+              <h1>ADDITIONAL SKILLS</h1>
+            </div>
+            <div class="flex justify-evenly w-[80%] ">
+              <img 
+                  src="./public/additionalSkill/MongoDB-Image.png" alt="additional skill logo"
+                  class="h-[1.5rem] w-[1.5rem]"
+                  />
+              <img 
+                  src="./public/additionalSkill/mui-labs.png" alt="additional skill logo"
+                  class="h-[1.5rem] w-[1.5rem]"
+                  />
+              <img 
+                  src="./public/additionalSkill/next.png" alt="additional skill logo"
+                  class="h-[1.5rem] w-[1.5rem]"
+                  />
+              <img 
+                  src="./public/additionalSkill/node-js-icon-1817x2048-g8tzf91e.png" alt="additional skill logo"
+                  class="h-[1.5rem] w-[1.5rem]"
+                  />
+              <img 
+                  src="./public/additionalSkill/reduz_jv.png" alt="additional skill logo"
+                  class="h-[1.5rem] w-[1.5rem]"
+                  />
+              <img 
+                  src="./public/additionalSkill/axios.png" alt="additional skill logo"
+                  class="h-[1.5rem] w-[1.5rem]"
+                  />
+            </div>
+        </div>
     </section>
 
+    <section class="h-[11rem] flex justify-center mb-3">
+        <div class="flex items-center justify-around h-full w-full">
+            <div class="flex flex-col justify-around relative h-full w-[45%]">
+                <h1 class="w-[8rem] text-[18px] ">THE WORKS CLOSEST TO MY HEART</h1>
+                <button 
+                class="text-[11px] text-black rounded-2xl p-1 pl-2.5 pr-2.5 bg-[#e3ff6a] absolute bottom-5 right-0"
+                >SHOW MY PROJECTS</button>
 
-    <section>
+            </div>
+            <div class="flex rounded-[10px] gap-2">
+                <div class="w-[2.8rem] h-[8rem] border border-solid border-white">
+                    <img src="./public/work/plumbing.webp" alt="" class="object-fill w-full h-full">
+                </div>
 
+                <div class="w-[2.8rem] h-[8rem] border border-solid border-white">
+                    <img src="./public/work/drink.jpg" alt="" class="object-fill w-full h-full">
+                </div>
+
+                <div class="w-[2.8rem] h-[8rem] border border-solid border-white">
+                    <img src="./public/work/robin grassner.jpg" alt="" class="object-fill w-full h-full">
+                </div>
+            </div>
+        </div>
     </section>
 
-
-    <section>
+    <section class="flex justify-center border border-white border-solid mb-10 h-[15rem]">
+        <div class="flex flex-col items-center justify-center bg-white w-[85%] rounded-2xl border border-black border-solid">
+            <h1 class="text-black text-[1.5rem]">LET'S HAVE A CHAT</h1>
+            <form action="" class="text-black flex flex-col gap-1">
+                <input type="text" placeholder="YOUR NAME" class="bg-[#8892b0] text-[12px]">
+                <input type="text" placeholder="EMAIL ADDRESS" class="bg-[#8892b0] text-[12px]">
+                <textarea name="Informacion" id="informacion" class="bg-[#8892b0] text-[12px]"> CHAT HERE
+                </textarea>
+                <button class="button rounded-2xl p-1.5 w-full text-[11px]">SUBMIT HERE</button>
+            </form>
+        </div>
 
     </section>
-
-
-    <section>
-
-    </section>
-
-
-</body>
+  </body>
 </html>
